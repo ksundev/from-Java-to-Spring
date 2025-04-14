@@ -5,6 +5,7 @@
 - command + ; : 프로젝트 structure 설정 (자바 버전 등)
 - alt(option) + enter : 에러 해결 방법 제시
 - command + shift + enter : 코드 자동 완성
+    - `sout`, `soutv` 등 : 출력문 빠른생성
 
 ### lombok 설정법
 
@@ -16,3 +17,8 @@
 ### 커스텀 어노테이션?
 
 - `@Primary` 대신에 `@Qualifier`를 사용한다면, 커스텀 어노테이션을 적용하는 것도 방법이다.
+
+### 웹 어플리캐이션을 만들 때
+
+- implementation 'org.springframework.boot:spring-boot-starter-web' 추가
+- 내장 Tomcat 서버 사용 가능
